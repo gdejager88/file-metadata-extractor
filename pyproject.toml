@@ -1,0 +1,14 @@
+[project]
+name = "file-metadata-extractor"
+version = "0.1.0"
+description = "Returns size, mtime, ctime, mode, owner uid, and gid for a path in a single stat call wrapped as a dict."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
